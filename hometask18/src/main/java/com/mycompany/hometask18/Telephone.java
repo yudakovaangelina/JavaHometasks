@@ -6,7 +6,7 @@ package com.mycompany.hometask18;
 
 /**
  *
- * @author LITEL ZVER
+ *
  */
 public class Telephone {
     private String model;
