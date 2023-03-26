@@ -14,9 +14,12 @@ import java.util.Scanner;
 public class Hometask1_12 {
 
     public static void main(String[] args) {
+        System.out.println("Юдакова Ангелина РИБО-02-21 вариант 2 ");
         System.out.println("Eneter path ");
+        
         Scanner scan = new Scanner(System.in);
         String enteredPath = scan.nextLine();
+        
         LoaderRunnable lr = new LoaderRunnable( enteredPath);
         Thread th = new Thread(lr);
         th.start();
