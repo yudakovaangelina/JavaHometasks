@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <EditText
+           android:id="@+id/etMonths"
+           android:layout_width="match_parent"
+           android:layout_height="48dp"
+           android:inputType="number"
+           android:layout_marginTop="15dp"
+           android:hint="               Длительность вклада (в месяцах)" />
+
+        <EditText
+            android:id="@+id/etPercent"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+
+            android:layout_marginTop="15dp"
+            android:hint="                           Годовой процент" />
+
+        <EditText
+            android:id="@+id/etStartSum"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="15dp"
+            android:hint="                           Начальная сумма"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/count"/>
+
+    <TextView
+        android:id="@+id/tvText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ежемесячный доход: "
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvMonthlyIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Итоговый доход: "
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvFinalIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:text="Юдакова Ангелина РИБО-02-21 Вариант 2 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+</LinearLayout>
